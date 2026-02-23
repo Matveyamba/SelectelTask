@@ -17,16 +17,27 @@
 selectel-tests/
 │
 ├── pages/ # Page Object классы для страниц
+
 │ ├── base_page.py
+
 │ └── main_page.py
+
 ├── tests/ # Автоматизированные тесты
+
 │ └── test_smoke.py
+
 ├── utils/ # Конфигурации и вспомогательные файлы
+
 │ └── config.py
+
 ├── conftest.py # Фикстуры pytest
+
 ├── pytest.ini # Настройки pytest
+
 ├── requirements.txt # Зависимости Python
+
 ├── README.md
+
 └── .gitignore
 
 
