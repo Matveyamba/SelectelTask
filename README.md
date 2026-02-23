@@ -84,8 +84,13 @@ pytest -v
 ## Результат запуска тестов
 При успешном прохождении всех тестов вы увидите примерно такой вывод:
 
+
 tests/test_smoke.py::test_main_page_status_code PASSED        [ 33%]
+
 tests/test_smoke.py::test_main_page_title PASSED              [ 66%]
+
 tests/test_smoke.py::test_login_button PASSED                [100%]
 
+
 ================================================= 3 passed in 5.23s =================================================
+
