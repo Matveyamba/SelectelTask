@@ -1,9 +1,9 @@
 from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
-
+from utils.config import BASE_URL
 
 class MainPage(BasePage):
-    URL = "https://selectel.ru"
+    URL = BASE_URL
     LOGIN_BUTTON = (By.XPATH, "//a[contains(text(), 'Войти')]")
 
     def open(self):
